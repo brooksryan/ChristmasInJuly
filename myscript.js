@@ -91,6 +91,5 @@ $(function(){
 		} else {
 			$('header nav').removeClass('inbody');
 		}
-
 	})
 });
