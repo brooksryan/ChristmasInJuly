@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto|Open+Sans+Condensed:300);
+
+body {
+	
+	font-family: "Avenir", sans-serif;
+	position:relative;
+
+}
+
+p {
+		text-align: left;
+		color: white;
+		font-size: 15px;
+	}
+
+h1 {
+	
+	font-family: "Avenir";	
+	font-size: 70px;
+	text-align: left;
+	color: white;
+	
+}
+
+h2 {
+
+	margin-top: 0px;
+	text-align: left;
+	color:white;
+}
+
+h3 {
+
+	margin-top: 0px;
+	text-align: left;
+	color:white;
+
+}
+
+/*NAVBAR STYLES*/
+
+header .navbar-default {
+	
+	background-color: transparent;
+	border: none;
+
+}
+
+/*Expanded navbar*/
+
+.navbar-collapse{
+
+	border: none;
+}
+/*PAGES */
+
+.page {
+
+	text-align: center;
+}
+
+/*INTRODUCTION PAGE*/
+
+.page#introduction {
+
+	background: url(../babbychristmas.jpg) no-repeat center center;
+	background-size:cover;
+	height: 900px;
+
+}
+
+.page#introduction .container-fluid {
+	
+	padding-top: 100px;
+	background-color: rgba(0,0,0,.5);
+	height: 900px;
+
+}
+
+@media only screen
+and (max-width: 768px){
+
+	.page#introduction .container-fluid {
+		padding-top: 50px;
+		height: 700px;
+	}
+
+	.page#introduction {
+
+	height: 700px;
+
+	}
+
+}
+
+/*Introduction Button */
+
+a.btn-default.ctaButton {
+	
+	margin: 50px 10px 0px 10px;
+	background: transparent;
+	box-shadow: none;
+	border-color: white;
+	border-width: 5px;
+	min-width: 320px;
+	font-family: "Avenir", sans-serif;
+	font-size: 30px;
+	color: white;
+
+}
+
+
+
+/*ABOUT PAGE*/
+
+.page#about {
+
+	background-color: orange;}
+
+#about h2{
+
+	text-align: center;
+}
+
+#about h1{
+
+	text-align: center;
+}
+
+#about p {
+
+	font-family: "Open Sans Condensed";
+
+
+}
+
+.page#about #christmastree img {
+
+	width: 100%;
+	max-height: 300px;
+	max-width: 300px;
+}
+
+/*CAST AND CREW PAGE*/
+
+#castAndCrew h1 {
+	color: black;
+}
+
+/*footer*/
+
+footer{
+	background-color: red;
+	min-height: 20px
+}
