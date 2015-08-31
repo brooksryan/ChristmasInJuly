@@ -75,7 +75,7 @@ $(function(){
 
 	var hash = $(this).find('li.active a').attr('href');
 
-	if(hash !== '#featured') {
+	if(hash !== '#featured') { 
 		$('header nav').addClass('inbody');
 	} else {
 		$('header nav').removeClass('inbody');
