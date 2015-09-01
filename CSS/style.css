@@ -95,7 +95,7 @@ header .navbar-default {
 
 .page#introduction {
 
-	background: url(../babbychristmas.jpg) no-repeat center center;
+	background: url("http://localhost/BeteV2/assets/babbychristmas.jpg") no-repeat center center;
 	background-size:cover;
 	height: 900px;
 
