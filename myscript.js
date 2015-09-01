@@ -24,7 +24,7 @@ $(function(){
 	});"use strict";
 
 	var topoffset = 50;
-
+ 
 	/* Autmating slide carousel indicators*/
 
 	var slideqty = $('#featured .item').length

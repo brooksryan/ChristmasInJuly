@@ -42,6 +42,8 @@ h3 {
 header .navbar-default {
 	
 	background-color: transparent;
+	filter: url('#blur');
+    filter: blur(5px);
 	border: none;
 
 }
@@ -51,7 +53,37 @@ header .navbar-default {
 .navbar-collapse{
 
 	border: none;
+
 }
+
+@media only screen and (max-width: 766px) {
+.collapsing ul li a, .in ul li a {color: #555!important;}
+.collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
+}
+
+
+/*Navbar toggle colors*/
+
+.navbar-toggle.collapsed {
+	
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:orange;
+};
+
+.navbar-toggle:hover {
+	background-color: blue;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	
+	border-color: orange;
+
+	background-color:inherit;
+}
+
 /*PAGES */
 
 .page {
