@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body data-spy="scroll" data-target="#navbar-example">
+<body data-spy="scroll" data-target="#navbar-example"> 
 	<header>
 		<?php include 'Components/php/header.php'; ?>
 	</header> <!-- HEADER -->
