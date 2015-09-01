@@ -14,7 +14,7 @@
 
 <body data-spy="scroll" data-target="#navbar-example">
 	<header>
-		<?php include "components/php/header.php"; ?>
+		<?php include 'Components/php/header.php'; ?>
 	</header> <!-- HEADER -->
 	<div class="fillerPages">			
 		<div class="page" id="introduction">
