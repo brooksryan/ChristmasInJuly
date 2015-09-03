@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto|Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Roboto|Open+Sans+Condensed:300|Lato);
 
 body {
 	
@@ -11,13 +11,14 @@ p {
 		text-align: left;
 		color: white;
 		font-size: 15px;
+		font-family: "Lato";
 	}
 
 h1 {
 	
 	font-family: "Avenir";	
 	font-size: 70px;
-	text-align: left;
+	text-align: center;
 	color: white;
 	
 }
@@ -25,8 +26,9 @@ h1 {
 h2 {
 
 	margin-top: 0px;
-	text-align: left;
+	text-align: center;
 	color:white;
+	font-size: 15px;
 }
 
 h3 {
@@ -95,7 +97,7 @@ header .navbar-default {
 
 .page#introduction {
 
-	background: url("http://localhost/BeteV2/assets/babbychristmas.jpg") no-repeat center center;
+	background: url("/BeteV2/assets/babbychristmas.jpg") no-repeat center center;
 	background-size:cover;
 	height: 900px;
 
@@ -145,23 +147,23 @@ a.btn-default.ctaButton {
 
 /*ABOUT PAGE*/
 
-.page#about {
-
-	background-color: orange;}
-
 #about h2{
 
 	text-align: center;
+	color: black;
 }
 
 #about h1{
 
 	text-align: center;
+	color: black;
 }
 
 #about p {
 
-	font-family: "Open Sans Condensed";
+	font-family: "Lato";
+	color: black;
+	
 
 
 }
