@@ -23,7 +23,7 @@
 				<div class="row">						
 					<div class="col-md-offset-3 col-md-6  col-sm-offset-2 col-sm-9">
 						<p>
-							<h1>Christmas in July </h1><h2>Sometime near Christmas | Brought to you by the Popup Startup Theater</h2>
+							<h1>Christmas in July </h1><h2>(Sometime near Christmas)</h2> <h3>A night of sketch comedy & improv theater</h3>
 						</p>
 					</div> <!-- introduction col-lg-12 -->
 				</div> <!-- row -->
