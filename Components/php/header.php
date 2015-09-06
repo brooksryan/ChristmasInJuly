@@ -7,7 +7,9 @@
 		          	<span class="icon-bar"></span>
 		          	<span class="icon-bar"></span>
 		          	<span class="icon-bar"></span>
-        		</button>						
+
+        		</button>	
+        	<a class="navbar-brand" href="#featured"><h1>CIJSCN</h1></a>					
 			</div> <!-- navbar-header -->
 			<div class="collapse navbar-collapse" id="collapse">
 		        <ul class="nav navbar-nav navbar-right">

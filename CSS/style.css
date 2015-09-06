@@ -43,14 +43,22 @@ h3 {
 
 header .navbar-default {
 	
-	background-color: transparent;
+	background-color: rgba(0,0,0,.9);
 	filter: url('#blur');
     filter: blur(5px);
 	border: none;
 
 }
 
+.navbar-header {
+
+	border-color:transparent;
+
+}
+
 /*Expanded navbar*/
+
+
 
 .navbar-collapse{
 
@@ -59,10 +67,33 @@ header .navbar-default {
 }
 
 @media only screen and (max-width: 766px) {
-.collapsing ul li a, .in ul li a {color: #555!important;}
-.collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
+.collapsing ul li a, .in ul li a {color: white!important;}
+.collapsing ul li a:hover, .in ul li a:hover {color: orange!important;}
+.collapsing ul li a:hover, .in ul li.active a:hover {color: black!important;}
 }
 
+/*Navbar navigation links*/
+
+ul.nav.navbar-nav {
+
+	text-align:center;
+	font-family: "Avenir";
+	font-size: 20px;
+	color: white; 
+
+}
+
+
+.navbar-collapse .navbar-nav.navbar-right a {
+
+	color:white;
+}
+
+/* active backgroud navbar color */
+.navbar-default .navbar-nav.navbar-right .active a{
+
+	background-color:orange;
+}
 
 /*Navbar toggle colors*/
 
@@ -86,6 +117,20 @@ header .navbar-default {
 	background-color:inherit;
 }
 
+/**  Navbar Brand **/
+
+header .navbar-brand {
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+header .navbar-brand h1 {
+  color: white;
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
 /*PAGES */
 
 .page {
@@ -99,7 +144,7 @@ header .navbar-default {
 
 	background: url("/BeteV2/assets/babbychristmas.jpg") no-repeat center center;
 	background-size:cover;
-	height: 900px;
+	min-height: 700px;
 
 }
 
@@ -107,7 +152,7 @@ header .navbar-default {
 	
 	padding-top: 100px;
 	background-color: rgba(0,0,0,.5);
-	height: 900px;
+	min-height: 700px;
  
 }
 
@@ -163,7 +208,7 @@ a.btn-default.ctaButton {
 
 	font-family: "Lato";
 	color: black;
-	
+
 
 
 }

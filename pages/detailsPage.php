@@ -3,7 +3,6 @@
 	<h1>About CIJSNC</h1>			
 		<div class="row">		
 			<div class="col-xs-12 col-sm-8" id="aboutText">
-				<h2>What is it?</h2>
 				<p>Seven years ago to this very day, a group of plucky young ne’erdowells each had the same dream: they were standing on a stage, surrounded by adoring fans, performing amateur improv and sketch comedy. Each dream was linked by a strange occurrance: it was definitely Christmas, but it may also have been July. But it was probably at least near Christmas. 
 				</p>
 				<p>
