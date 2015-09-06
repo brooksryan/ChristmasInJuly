@@ -16,7 +16,8 @@
 	<header>
 		<?php include 'Components/php/header.php'; ?>
 	</header> <!-- HEADER -->
-	<div class="fillerPages">			
+	<div class="fillerPages">
+		
 		<div class="page fullheight" id="introduction">
 			<div class="content container-fluid fullheight">					
 				<div class="row">						

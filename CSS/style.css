@@ -113,7 +113,6 @@ ul.nav.navbar-nav {
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
 	
 	border-color: orange;
-
 	background-color:inherit;
 }
 
@@ -142,7 +141,7 @@ header .navbar-brand h1 {
 
 .page#introduction {
 
-	background: url("images/homePageBackground.jpg") no-repeat center center;
+	background: url("homePageBackground.jpg") no-repeat center center;
 	background-size:cover;
 	min-height: 700px;
 
