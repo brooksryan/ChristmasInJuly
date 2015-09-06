@@ -35,7 +35,7 @@
 			</div> <!-- content container-fluid --> 
 		</div>  <!-- introduction -->
 
-
+		
 		<div class="page" id="about">	
 			<?php include 'pages/detailsPage.php'; ?>
 		</div>  <!-- details page -->
@@ -43,10 +43,11 @@
 		<div class="page" id="castAndCrew">
 			<?php include 'pages/castAndCrew.php'; ?>
 		</div>  <!-- castAndCrew -->
-
-		<div class="page" id="tickets">
 			
-		</div>
+		<div class="page" id="tickets" >
+			<?php include 'pages/ticketsInfo.php'; ?>			
+		</div> <!-- tickets page  -->
+
 	</div>  <!-- fillerPages -->
 	<footer>
 		<div class="container-fluid">

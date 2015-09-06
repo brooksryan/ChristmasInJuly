@@ -142,7 +142,7 @@ header .navbar-brand h1 {
 
 .page#introduction {
 
-	background: url("/BeteV2/assets/babbychristmas.jpg") no-repeat center center;
+	background: url("images/babbychristmas.jpg") no-repeat center center;
 	background-size:cover;
 	min-height: 700px;
 
@@ -208,9 +208,6 @@ a.btn-default.ctaButton {
 
 	font-family: "Lato";
 	color: black;
-
-
-
 }
 
 .page#about #christmastree img {
@@ -224,6 +221,26 @@ a.btn-default.ctaButton {
 
 #castAndCrew h1 {
 	color: black;
+}
+
+/* Tickets page */
+#tickets h2{
+
+	text-align: center;
+	color: black;
+}
+
+#tickets h1{
+
+	text-align: center;
+	color: black;
+}
+
+#tickets p {
+
+	font-family: "Lato";
+	color: black;
+
 }
 
 /*footer*/

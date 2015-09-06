@@ -36,9 +36,19 @@ $(function(){
 
 
 	/*Reveals header logo if intro page is not the active page*/
+	/*TODO
+	TODO
+	TODO
+	TODO	*/
+	/*JQuery accordion*/
 
+	
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+	
 
-	/*Use smooth scrolling navigation*/
+	/*Use smooth scrolling navigation bar*/
 
     $('.navbar a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') ===
@@ -79,4 +89,6 @@ $(function(){
 			$('header nav').removeClass('inbody');
 		}
 	})
+
+	
 });
