@@ -247,15 +247,26 @@ a.btn-default.ctaButton {
 
 /*form*/
 
+
+
+#workWithUs h1 {
+
+color:black;
+
+}
+
 div#workWithUs {
 
+
 	text-align: left;
+
 }
 
 form {
 
 	text-align: left;
 };
+
 
 
 /*footer*/
