@@ -49,6 +49,10 @@
 			<?php include 'pages/ticketsInfo.php'; ?>			
 		</div> <!-- tickets page  -->
 
+		<div class="page" id="workWithUs" >
+			<?php include 'pages/registration.php'; ?>			
+		</div> <!-- tickets page  -->
+
 	</div>  <!-- fillerPages -->
 	<footer>
 		<div class="container-fluid">

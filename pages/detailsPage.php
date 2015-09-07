@@ -49,5 +49,4 @@
 		</div> <!-- whyDoICareText -->		
 	
 	</div> <!-- Row whyDoICare -->
-
 </div>	<!-- content container -->

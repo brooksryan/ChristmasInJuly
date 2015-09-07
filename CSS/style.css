@@ -144,7 +144,7 @@ header .navbar-brand h1 {
 
 .page#introduction {
 
-	background: url("homePageBackground.jpg") no-repeat center center;
+	background: url("images/homePageBackground.jpg") no-repeat center center;
 	background-size:cover;
 	min-height: 700px;
 
@@ -244,6 +244,19 @@ a.btn-default.ctaButton {
 	color: black;
 
 }
+
+/*form*/
+
+div#workWithUs {
+
+	text-align: left;
+}
+
+form {
+
+	text-align: left;
+};
+
 
 /*footer*/
 
