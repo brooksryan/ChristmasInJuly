@@ -36,7 +36,7 @@
 			</div> <!-- content container-fluid --> 
 		</div>  <!-- introduction -->
 
-		
+		<div class="notIntroductionSections">
 		<div class="page" id="about">	
 			<?php include 'pages/detailsPage.php'; ?>
 		</div>  <!-- details page -->
@@ -52,7 +52,7 @@
 		<div class="page" id="workWithUs" >
 			<?php include 'pages/registration.php'; ?>			
 		</div> <!-- tickets page  -->
-
+		</div>
 	</div>  <!-- fillerPages -->
 	<footer>
 		<div class="container-fluid">

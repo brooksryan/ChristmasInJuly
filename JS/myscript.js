@@ -35,6 +35,18 @@ $(function(){
 	$('.fullheight').css('height',wheight);
 
 
+	$('.')
+
+	/*
+	Validates form input for registration page
+	TODO
+	TODO
+	TODO
+	TODO
+	TODO
+
+	*/
+
 	/*Reveals header logo if intro page is not the active page*/
 	/*TODO
 	TODO

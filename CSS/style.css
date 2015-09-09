@@ -146,6 +146,8 @@ header .navbar-brand h1 {
 
 	background: url("images/homePageBackground.jpg") no-repeat center center;
 	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	min-height: 700px;
 
 }
