@@ -4,7 +4,7 @@ $(function(){
 
 	var topoffset = 50;
 
-	/* Autmating slide carousel indicators*/
+	 /* Autmating slide carousel indicators*/
 
 	var slideqty = $('#featured .item').length
 
@@ -14,7 +14,7 @@ $(function(){
 	$('.fullheight').css('height',wheight);
 
 
-	/*Activate Scrollspy*/
+	 /*Activate Scrollspy*/
 
 	$('body').scrollspy({
 
