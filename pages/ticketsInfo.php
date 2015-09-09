@@ -24,7 +24,7 @@
 			You love the arts, but maybe you’re bored with established theater institutions, whose trained actors and real budgets don’t require as much suspension of disbelief as you’d like.
 			Out at a bar last weekend, you downed your fifth beer and wondered, for a second, if this is really what your life has shaped up to be.
 			You’re looking for something to do on December 5th. 
- 
+  
 			</p>
 		</div>
 
